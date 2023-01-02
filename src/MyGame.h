@@ -101,7 +101,7 @@ class MyGame {
         // Power Up Particles
         std::vector<Particle*> powerUpParticles;
     public:
-        std::vector<string> messages;
+        std::vector<std::string> messages;
         // Receive message from server
         void on_receive(std::string message, std::vector<std::string>& args);
         
